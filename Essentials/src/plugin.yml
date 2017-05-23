@@ -11,15 +11,12 @@ commands:
   afk:
     description: Marks you as away-from-keyboard.
     usage: /<command> [player/message...]
-    aliases: [eafk,away,eaway]
   antioch:
     description: 'A little surprise for operators.'
     usage: /<command> [message]
-    aliases: [eantioch,grenade,egrenade,tnt,etnt]
   back:
     description: Teleports you to your location prior to tp/spawn/warp.
     usage: /<command>
-    aliases: [eback,return,ereturn]
   backup:
     description: Runs the backup if configured.
     usage: /<command>
@@ -43,7 +40,6 @@ commands:
   book:
     description: Allows reopening and editing of sealed books.
     usage: /<command> [title|author [name]]
-    aliases: [ebook]
   break:
     description: Breaks the block you are looking at.
     usage: /<command>
@@ -106,11 +102,10 @@ commands:
   enchant:
     description: Enchants the item the user is holding.
     usage: /<command> <enchantmentname> [level]
-    aliases: [eenchant,enchantment,eenchantment]
   enderchest:
     description: Lets you see inside an enderchest.
     usage: /<command> [player]
-    aliases: [echest,eechest,eenderchest,endersee,eendersee,ec,eec]
+    aliases: [ec]
   essentials:
     description: Reloads essentials.
     usage: /<command>
@@ -126,11 +121,10 @@ commands:
   feed:
     description: Satisfy the hunger.
     usage: /<command> [player]
-    aliases: [eat,eeat,efeed]
+    aliases: [eat]
   fly:
     description: Take off, and soar!
     usage: /<command> [player] [on|off]
-    aliases: [efly]
   fireball:
     description: Throw a fireball.
     usage: /<command> [small|skull]
@@ -162,11 +156,9 @@ commands:
   hat:
     description: Get some cool new headgear.
     usage: /<command> [remove]
-    aliases: [ehat,head,ehead]
   heal:
     description: Heals you or the given player.
     usage: /<command> [player]
-    aliases: [eheal]
   help:
     description: Views a list of available commands.
     usage: /<command> [search term] [page]
@@ -178,7 +170,6 @@ commands:
   home:
     description: Teleport to your home.
     usage: /<command> [player:][name]
-    aliases: [ehome,homes,ehomes]
   ignore:
     description: Ignore or unignore other players.
     usage: /<command> <player>
@@ -190,7 +181,6 @@ commands:
   invsee:
     description: See the inventory of other players.
     usage: /<command> <player>
-    aliases: [einvsee]
   item:
     description: Spawn an item.
     usage: /<command> <item|numeric> [amount [itemmeta...]]
@@ -222,7 +212,6 @@ commands:
   kit:
     description: Obtains the specified kit or views all available kits.
     usage: /<command> [kit] [player]
-    aliases: [ekit,kits,ekits]
   kittycannon:
     description: Throw an exploding kitten at your opponent.
     usage: /<command>
@@ -242,7 +231,6 @@ commands:
   me:
     description: Describes an action in the context of the player.
     usage: /<command> <description>
-    aliases: [action,eaction,describe,edescribe,eme]
   more:
     description: Fills the item stack in hand to maximum size.
     usage: /<command>
@@ -266,7 +254,6 @@ commands:
   near:
     description: Lists the players near by or around a player.
     usage: /<command> [playername] [radius]
-    aliases: [enear,nearby,enearby]
   nick:
     description: Change your nickname or that of another player.
     usage: /<command> [player] <nickname|off>
@@ -330,7 +317,7 @@ commands:
   repair:
     description: Repairs the durability of one or all items.
     usage: /<command> [hand|all]
-    aliases: [fix,efix,erepair]
+    aliases: [fix]
   rules:
     description: Views the server rules.
     usage: /<command> [chapter] [page]
@@ -346,7 +333,6 @@ commands:
   sethome:
     description: Set your home to your current location.
     usage: /<command> [[player:]name]
-    aliases: [esethome,createhome,ecreatehome]
   setjail:
     description: Creates a jail where you specified named [jailname].
     usage: /<command> <jailname>
@@ -390,7 +376,6 @@ commands:
   suicide:
     description: Causes you to perish.
     usage: /<command>
-    aliases: [esuicide]
   tempban:
     description: Temporary ban a user.
     usage: /<command> <playername> <datediff> <reason>
@@ -418,7 +403,6 @@ commands:
   tpa:
     description: Request to teleport to the specified player.
     usage: /<command> <player>
-    aliases: [call,ecall,etpa,tpask,etpask]
   tpaall:
     description: Requests all players online to teleport to you.
     usage: /<command> <player>
@@ -426,11 +410,9 @@ commands:
   tpaccept:
     description: Accepts a teleport request.
     usage: /<command> [otherplayer]
-    aliases: [etpaccept,tpyes,etpyes]
   tpahere:
     description: Request that the specified player teleport to you.
     usage: /<command> <player>
-    aliases: [etpahere]
   tpall:
     description: Teleport all online players to another player.
     usage: /<command> <player>
@@ -482,7 +464,6 @@ commands:
   warp:
     description: List all warps or warp to the specified location.
     usage: /<command> <pagenumber|warp> [player]
-    aliases: [ewarp,warps,ewarps]
   weather:
     description: Sets the weather.
     usage: /<command> <storm/sun> [duration]
@@ -494,7 +475,7 @@ commands:
   workbench:
     description: Opens up a workbench.
     usage: /<command>
-    aliases: [craft,ecraft,wb,ewb,wbench,ewbench,eworkbench]
+    aliases: [craft]
   world:
     description: Switch between worlds.
     usage: /<command> [world]
